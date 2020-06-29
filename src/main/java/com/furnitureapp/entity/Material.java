@@ -10,7 +10,7 @@ public class Material {
     private Double price;
     private String supplier;
 
-    //Constructor
+    //Constructor for builder class
     public Material(MaterialBuilder builder) {
         this.materialCode = builder.materialCode;
         this.name = builder.name;
